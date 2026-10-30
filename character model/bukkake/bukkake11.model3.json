@@ -1,0 +1,73 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "bukkake11.moc3",
+		"Textures": [
+			"bukkake11.4096/texture_00.png"
+		],
+		"Physics": "bukkake11.physics3.json",
+		"DisplayInfo": "bukkake11.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "微笑",
+				"File": "bukkake11.smile.exp3.json"
+			},
+			{
+				"Name": "悲伤",
+				"File": "bukkake11.sad.exp3.json"
+			},
+			{
+				"Name": "生气",
+				"File": "bukkake11.angry.exp3.json"
+			},
+			{
+				"Name": "惊讶",
+				"File": "bukkake11.surprised.exp3.json"
+			}
+		],
+		"Motions": {
+			"Idle": [
+				{
+					"File": "bukkake11.idle.motion3.json"
+				}
+			],
+			"Blink": [
+				{
+					"File": "bukkake11.blink.motion3.json"
+				}
+			],
+			"Nod": [
+				{
+					"File": "bukkake11.nod.motion3.json"
+				}
+			],
+			"Shake": [
+				{
+					"File": "bukkake11.shake.motion3.json"
+				}
+			],
+			"动作": [
+				{
+					"File": "bukkake11.motion.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	]
+}
